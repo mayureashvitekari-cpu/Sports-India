@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sports in India</title>
+
+<style>
+a:link { color: green; }
+a:visited { color: black; }
+a:hover { color: red; }
+a:active { color: blue; }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+header {
+    background: #0b5ed7;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+.sport-box {
+    background: white;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.sport-box h2 {
+    color: #0b5ed7;
+}
+
+.sport-box:hover {
+    transform: scale(1.04);
+    transition: 0.56s;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width:600px) {
+    .sport-box {
+        margin: 10px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Sports Played in India</h1>
+<p>Popular Sports Across the Country</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Cricket</a>
+<a href="#">Football</a>
+<a href="#">Hockey</a>
+<a href="#">Badminton</a>
+<a href="#">Kabaddi</a>
+<a href="#">Chess</a>
+</nav>
+
+<div class="container">
+
+<div class="sport-box">
+<h2 style="text-align:center;">
+<a href="https://www.iplt20.com">Cricket</a>
+</h2>
+<img src="cricket.jpg" alt="cricket">
+<p>Cricket is the most popular sport in India...</p>
+</div>
+
+<div class="sport-box">
+<h2 style="text-align:center;">
+<a href="https://www.fifa.com" target="_blank">Football</a>
+</h2>
+<img src="football.jpg" alt="football">
+<p>Football is one of the most popular sports in the world...</p>
+</div>
+
+<div class="sport-box">
+<h2 style="text-align:center;">
+<a href="https://www.fih.hockey" target="_blank">Hockey</a>
+</h2>
+<img src="hockey.jpg" alt="hockey">
+<p>Hockey is the national sport of India...</p>
+</div>
+
+<div class="sport-box">
+<h2 style="text-align:center;"> 
+<a href="https://bwfbadminton.com" target="_blank">Badminton</a>
+</h2>
+<img src="badminton.jpg" alt="badminton">
+<p>Badminton is a popular racket sport...</p>
+</div>
+
+<div class="sport-box">
+<h2 style="text-align:center;">
+<a href="https://www.prokabaddi.com" target="_blank">Kabaddi</a>
+</h2>
+<img src="kabaddi.jpg" alt="kabaddi">
+<p>Kabaddi is a traditional contact team sport...</p>
+</div>
+
+<div class="sport-box">
+<h2 style="text-align:center;">
+<a href="https://www.fide.com" target="_blank">Chess</a>
+</h2>
+<img src="chess.jpg" alt="chess">
+<p>Chess is one of the oldest board games...</p>
+</div>
+
+</div>
+
+<footer>
+Created by Vibhor Desai, Mayuresh Vatikari
+</footer>
+
+</body>
+</html>
